@@ -135,4 +135,67 @@ print(",".join(factorials))
 #     else:
 #         senha = input("Crie uma senha: ")
        
+# Faça um programa que leia e valide as seguintes informações:
+# Nome: maior que 3 caracteres;
+# Idade: entre 0 e 150;
+# Salário: maior que zero;
+# Sexo: 'f' ou 'm';
+# Estado Civil: 's', 'c', 'v', 'd';
+
+# nome = input("Digite o seu nome: ")
+# while len(nome) > 3:
+#     print("Infomraçao valida")
+#     break
+# else: 
+#     print("Informaçao invalida")
+# idade = int(input("Digite a sua idade: "))
+# while idade <= 150:
+#     print("Infomraçao valida")
+#     break
+# else: 
+#     print("Informaçao invalida")
     
+# salario = float(input("Digite o seu salario: "))
+# while salario > 0:
+#     print("Infomraçao valida")
+#     break
+# else: 
+#     print("Informaçao invalida")
+
+# sexo = input("Digite o seu sexo (f ou m): ")
+# if sexo == "f":
+#     print("Infomraçao valida")
+# else:
+#     print("Informaçao invalida")
+
+# estado_civil = input("Digite o seu estado civil (s, c, v, d): ")
+# if estado_civil == "s":
+#     print("Infomraçao valida")
+    
+# elif estado_civil == "c":
+#     print("Infomraçao valida")
+    
+# elif estado_civil == "v":
+#     print("Infomraçao valida")
+    
+# elif estado_civil == "d":
+#     print("Infomraçao valida")
+    
+# else:
+#     print("Informaçao invalida")
+    
+    
+# Criação de uma calculadora basica  
+
+# operador = input("Digite o operador (*, +, -, /): ")
+# num1 = float(input("Digite um numero: "))
+# num2 = float(input("Digite um numero: "))
+
+# if operador == "*":
+#     print(num1 * num2)
+# if operador == "+":
+#     print(num1 + num2)
+# if operador == "-":
+#     print(num1 - num2)
+# if operador == "/":
+#     print(num1 / num2)
