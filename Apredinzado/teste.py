@@ -156,3 +156,54 @@
 #     print(num1 - num2)
 # if operador == "/":
 #     print(num1 / num2)
+
+# Construa um programa no qual o usuário cadastre um número
+# indeterminado de alunos de sua turma.
+
+# Ao fim do cadastro, o usuário deve informar qual aluno deseja
+# excluir do cadastro. Caso o aluno informado não tenha sido
+# localizado, o programa deve apresentar uma mensagem
+# informando “Aluno não cadastrado.”. Caso contrário, o programa
+# deve apagar o nome do aluno do cadastro e informar a
+# mensagem “Aluno excluído com sucesso.”. Por fim, o programa
+# deve imprimir o cadastro dos alunos ordenado alfabeticamente.
+
+
+# alunos = []
+
+# while True:
+#     cadastro = input("Cadastre o nome do aluno (ou digite '0' para terminar): ")
+#     if cadastro == "0":
+#         break
+#     alunos.append(cadastro)
+ 
+# print("Cadastro atual dos alunos:", alunos)
+    
+# usuario = input("Qual aluno você quer excluir: ")
+
+# if usuario in alunos:
+#     alunos.remove(usuario)
+#     print(f"O aluno {usuario} foi excluído com sucesso.")
+# else:
+#     print("Aluno não cadastrado.")
+    
+# alunos.sort()
+# print(f"Cadastro atualizado dos alunos: {alunos}" )
+
+# 1) Crie um programa que carregue uma lista para armazenar N
+# números inteiros positivos (considere que o usuário sempre
+# informará valores distintos e inteiros positivos). Ao fim, mostre o
+# menor e o maior número e em qual índice eles se encontram.
+
+# numero = int(input("Digite N numeros inteiros distintos ou positivos: "))
+# N =[]
+# for i in range(numero):
+#     numeros = int(input("Digite os numeros: "))
+#     N.append(numeros)
+     
+# x = N.index(max(N)) 
+# Y = N.index(min(N)) 
+
+
+# print(f"O maior numero é: {(max(N))} e o seu indice é: {N.index(max(N))} ")
+# print(f"O menor numero é: {(min(N))} e o seu indice é: {N.index(min(N))} ")
